@@ -41,31 +41,31 @@ const linkyt = `${ytlu}`
 const linkig = `${instalu}`
 const defaultMenu = {
   before: `
-╔══「 *${namabot}* 」═══╗
-╠➤👤𝙊𝙬𝙣𝙚𝙧 : ${global.ownername}
-╠➤🤖𝘽𝙊𝙏 : ${global.namabot}
-╠➤⏰𝙐𝙥𝙩𝙞𝙢𝙚 : %uptime
-╠➤📝𝘼𝙡𝙡 𝙁𝙞𝙩𝙪𝙧 : *${totalf}*
-╚═══════╦═══════╝
-╔═══════╩═══════╗
-║ 〘𝙿𝚁𝙾𝙵𝙸𝙻𝙴 𝙼𝚄〙
-╠❥👤𝙽𝚊𝚖𝚎 : %name
-╠❥📈𝙻𝚒𝚖𝚒𝚝 : %limit
-╠❥🥀𝙻𝚎𝚟𝚎𝚕 : %level
-╠❥🤺𝙴𝚡𝚙   : %exp
-╠❥🔲𝚁𝚘𝚕𝚎   : %role
-╚═══════╦═══════╝
-╔═══════╩═══════╗
-╠> 📰Hari  : *%week*
-╠> 📆TGL  : *%date*
-╠> 🕚Waktu : *%time*
-╠═══════════════╝
-╠═══════════════╗`.trimStart(),
-  header: '╠► %category ◄',
-  body: '╠✗ %cmd %islimit %isPremium',
-  footer: '╠═══════════════╝\n╠═══════════════╗',
+┌─❒「 *${namabot}* 」
+├ Owner : ${global.ownername}
+├ Bot : ${global.namabot}
+├ Uptime : %uptime
+├ All Fitur : *${totalf}*
+╰❒
+┌─❒ 「 *User Info* 」
+├ Insta : http://tiny.cc/Nathalie
+├ Name : %name
+├ Limit : %limit
+├ Level : %level
+├ Exp   : %exp
+├ Role   : %role
+╰❒
+┌─❒ 「 *Date Info* 」
+├ 📰Hari  : *%week*
+├ 📆TGL  : *%date*
+├ 🕚Waktu : *%time*
+╰❒
+┌─❒`.trimStart(),
+  header: '├ %category  ',
+  body: '├✗ %cmd %islimit %isPremium',
+  footer: '╰──────────❒\n──────────────❒',
   after: `${global.namabot}
-*𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐢𝐧𝐢 𝐝𝐢𝐛𝐮𝐚𝐭 𝐨𝐥𝐞𝐡 ${global.ownername}
+ Project Ini di Buat Oleh ${global.ownername}
 ${global.ownerinsta}
 `,
 }
